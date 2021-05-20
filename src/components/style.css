@@ -4,26 +4,8 @@ nav{
     display: flex;
     justify-content: center;
     background-color: #f05454;
-    border-bottom: 10px solid #222831;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    border-bottom: 15px solid #222831;
     font-family: 'Bebas Neue', cursive;
-}
-
-.filter{
-    color: rgb(197, 65, 65);
-    opacity: 0;
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;
-    font-family: 'Bebas Neue', cursive;
-}
-
-.filter:hover{
-    opacity: 1;
 }
 
 tr {
