@@ -1,14 +1,17 @@
-import React from "React";
-import Jumbotron from "./components/jumbotron";
-import Table from "./components/table";
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Navbar from './components/SearchBar'
+import Footer from './components/Footer'
+import MainContainer from './components/MainContainer'
+import './components/style.css'
 
 function App() {
+  
+
   return (
     <div className="App">
-      <Jumbotron/>
-      <Table/>
+      <SearchBar />
+      <MainContainer />
+      <Footer />
     </div>
   );
 }

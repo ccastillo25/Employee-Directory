@@ -1,25 +1,12 @@
-import React from "react";
-import "../searchBar.css"
+import React from 'react'
+import '../style.css'
 
-const SearchBar = (props) => {
-
-  return (
-    <form>
-    <div className="form-group search-widget">
-      <div className="input-group mb-3">
-  
-        <input
-          onChange={props.handleInputChange}
-          value={props.search}
-          name="search"
-          type="text"
-          className="form-control"
-          placeholder='Search directory for Employee'
-          id="search"
-        />
-      </div>
-    </div>
-  </form>
-  );
+function SearchBar(){
+    return (
+        <nav>
+            <h1>Employee Directory</h1>
+        </nav>
+    )
 }
-export default SearchBar;
+
+export default SearchBar; 
