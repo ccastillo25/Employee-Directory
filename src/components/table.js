@@ -1,5 +1,4 @@
 import React from 'react'
-import '../style.css'
 
 function Table(props){
 
@@ -12,7 +11,7 @@ function Table(props){
                 <th>Phone Number <button className='filter' onClick={props.sortNumber}><i className="fas fa-filter"></i></button></th>
                 <th>Email <button className='filter' onClick={props.sortEmail}><i className="fas fa-filter"></i></button></th>
                 <th>Location</th>
-                </tr> 
+                </tr>
             </thead>
             <tbody>
                 {props.list.map(user => 

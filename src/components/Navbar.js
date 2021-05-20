@@ -1,7 +1,7 @@
 import React from 'react'
-import '../style.css'
+import './style.css'
 
-function SearchBar(){
+function Navbar(){
     return (
         <nav>
             <h1>Employee Directory</h1>
@@ -9,4 +9,4 @@ function SearchBar(){
     )
 }
 
-export default SearchBar; 
+export default Navbar;
