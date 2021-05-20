@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import axios from 'axios'
-import Table from '../Table'
-import '../style.css'
+import Table from './Table'
 
 function MainContainer(){
     const [users, setUsers] = useState([])
@@ -9,10 +8,10 @@ function MainContainer(){
 
     useEffect(() => {
         getRandomUsers()
-    }, []) 
+    }, [])
 
     async function getRandomUsers(){
-        const result = await axios.get('https://randomuser.me/api/?&results=25')
+        const result = await axios.get('https://randomuser.me/api/?results=25&seed=seed')
         setUsers(result.data.results)
     }
 

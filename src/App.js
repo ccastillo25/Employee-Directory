@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './components/SearchBar'
+import SearchBar from './components/SearchBar'
 import Footer from './components/Footer'
 import MainContainer from './components/MainContainer'
 import './components/style.css'
